@@ -138,3 +138,65 @@ app.post("/event", middleware, (req, res) => {
     });
   });
 });
+app.put("/event/:id", middleware, (req, res) => {
+  const { id } = req.params;
+  const updatedEvent = req.body;
+  console.log("Received ID: ", id); // Log the received ID
+  console.log("Received updated event: ", updatedEvent); // Log the received updated event
+
+  fs.readFile("./Data.json", "utf8", (err, data) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+
+    let eventData = JSON.parse(data);
+    const index = eventData.findIndex((event) => event.id === id);
+    if (index === -1) {
+      res.status(404).json({ message: "Event not found" });
+      return;
+    }
+
+    eventData[index] = updatedEvent;
+    const updatedData = JSON.stringify(eventData, null, 2);
+
+    fs.writeFile("./Data.json", updatedData, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+
+      res.status(200).json({ message: "Event updated successfully" });
+    });
+  });
+});
+// DELTE FUNCTION
+app.delete("/event/:id", middleware, (req, res) => {
+  const { id } = req.params;
+
+  fs.readFile("./Data.json", "utf8", (err, data) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+
+    let eventData = JSON.parse(data);
+    const index = eventData.findIndex((event) => event.id === id);
+    if (index === -1) {
+      res.status(404).json({ message: "Event not found" });
+      return;
+    }
+
+    eventData.splice(index, 1);
+    const updatedData = JSON.stringify(eventData, null, 2);
+
+    fs.writeFile("./Data.json", updatedData, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+
+      res.status(200).json({ message: "Event deleted successfully" });
+    });
+  });
+});

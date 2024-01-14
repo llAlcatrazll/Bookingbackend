@@ -1,5 +1,6 @@
 [
   {
+    "id": "8sblnr9segh",
     "AdressofEvent": "Cor Jesu",
     "DateofEvent": "2023-01-12",
     "EndingTimeofEvent": "14:21",
@@ -7,9 +8,11 @@
     "NameofEvent": "working? ",
     "PurposeofEvent": "to enjoy the year",
     "StartingTimeofEvent": "02:34",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CSP"
   },
   {
+    "id": "lg5l2szmt8",
     "AdressofEvent": "12345 Community Center",
     "DateofEvent": "2023-12-01",
     "EndingTimeofEvent": "15:45",
@@ -17,9 +20,11 @@
     "NameofEvent": "Banzai",
     "PurposeofEvent": "to celebrate the holiday season",
     "StartingTimeofEvent": "12:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CSP"
   },
   {
+    "id": "90q2c7f47tl",
     "AdressofEvent": "City Park Pavilion",
     "DateofEvent": "2023-12-02",
     "EndingTimeofEvent": "18:30",
@@ -27,9 +32,11 @@
     "NameofEvent": "Festive Family Picnic",
     "PurposeofEvent": "to enjoy outdoor activities",
     "StartingTimeofEvent": "14:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CHS"
   },
   {
+    "id": "53g9j8vpqyk",
     "AdressofEvent": "Harmony Hall",
     "DateofEvent": "2023-12-03",
     "EndingTimeofEvent": "21:00",
@@ -37,9 +44,11 @@
     "NameofEvent": "Holiday Gala Dinner",
     "PurposeofEvent": "to raise funds for charity",
     "StartingTimeofEvent": "18:30",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CEDAS"
   },
   {
+    "id": "25ilzopq0fg",
     "AdressofEvent": "Riverside School Auditorium",
     "DateofEvent": "2023-12-04",
     "EndingTimeofEvent": "20:00",
@@ -47,9 +56,11 @@
     "NameofEvent": "Winter Talent Show",
     "PurposeofEvent": "to showcase talents and creativity",
     "StartingTimeofEvent": "16:45",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "COE"
   },
   {
+    "id": "ulhkpt50dpy",
     "AdressofEvent": "Sports Arena",
     "DateofEvent": "2023-12-06",
     "EndingTimeofEvent": "22:00",
@@ -57,9 +68,11 @@
     "NameofEvent": "Winter Sports Spectacle",
     "PurposeofEvent": "to showcase athletic talents",
     "StartingTimeofEvent": "19:45",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "COE"
   },
   {
+    "id": "u0kl8t4dr9",
     "AdressofEvent": "Community 90;'op'il",
     "DateofEvent": "2023-12-05",
     "EndingTimeofEvent": "17:30",
@@ -67,9 +80,11 @@
     "NameofEvent": "Holiday Book Club Meeting",
     "PurposeofEvent": "to discuss festive-themed literature",
     "StartingTimeofEvent": "15:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "COE"
   },
   {
+    "id": "o4dfk5c0e7",
     "AdressofEvent": "Community tyjkruktyiklty",
     "DateofEvent": "2023-12-05",
     "EndingTimeofEvent": "17:30",
@@ -77,9 +92,11 @@
     "NameofEvent": "Holiday Book Club Meeting",
     "PurposeofEvent": "to discuss festive-themed literature",
     "StartingTimeofEvent": "15:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "COE"
   },
   {
+    "id": "1w8ie9k5a1",
     "AdressofEvent": "Community 312312415412",
     "DateofEvent": "2023-12-05",
     "EndingTimeofEvent": "17:30",
@@ -87,9 +104,11 @@
     "NameofEvent": "Holiday Book Club Meeting",
     "PurposeofEvent": "to discuss festive-themed literature",
     "StartingTimeofEvent": "15:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CHS"
   },
   {
+    "id": "oylqce0pjb",
     "AdressofEvent": "Community Ladqe124ibradasdasdadadry",
     "DateofEvent": "2023-12-05",
     "EndingTimeofEvent": "17:30",
@@ -97,9 +116,11 @@
     "NameofEvent": "Holiday Book Club Meeting",
     "PurposeofEvent": "to discuss festive-themed literature",
     "StartingTimeofEvent": "15:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CCIS"
   },
   {
+    "id": "s6gpc1n8d7",
     "AdressofEvent": "Community asdasdasdasdas",
     "DateofEvent": "2023-12-05",
     "EndingTimeofEvent": "17:30",
@@ -107,89 +128,11 @@
     "NameofEvent": "Holiday Book Club Meeting",
     "PurposeofEvent": "to discuss festive-themed literature",
     "StartingTimeofEvent": "15:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CEDAS"
   },
   {
-    "NameofEvent": "123",
-    "AdressofEvent": "1213",
-    "PurposeofEvent": "1213",
-    "FacilityofEvent": "hehall",
-    "DateofEvent": "2024-01-12",
-    "EndingTimeofEvent": "16:19",
-    "StartingTimeofEvent": "16:16",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "123",
-    "AdressofEvent": "1213",
-    "PurposeofEvent": "1213",
-    "FacilityofEvent": "hehall",
-    "DateofEvent": "2024-01-12",
-    "EndingTimeofEvent": "16:19",
-    "StartingTimeofEvent": "16:16",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "123",
-    "AdressofEvent": "1213",
-    "PurposeofEvent": "1213",
-    "FacilityofEvent": "hehall",
-    "DateofEvent": "2024-01-12",
-    "EndingTimeofEvent": "16:19",
-    "StartingTimeofEvent": "16:16",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "123",
-    "AdressofEvent": "1213",
-    "PurposeofEvent": "1213",
-    "FacilityofEvent": "hehall",
-    "DateofEvent": "2024-01-12",
-    "EndingTimeofEvent": "16:19",
-    "StartingTimeofEvent": "16:16",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "are you working?",
-    "AdressofEvent": "are you working?",
-    "PurposeofEvent": "are you working?",
-    "FacilityofEvent": "coindregrounds",
-    "DateofEvent": "2024-01-16",
-    "EndingTimeofEvent": "19:18",
-    "StartingTimeofEvent": "19:19",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "are you working?2",
-    "AdressofEvent": "are you working?2",
-    "PurposeofEvent": "are you working?3",
-    "FacilityofEvent": "coindregrounds",
-    "DateofEvent": "2024-01-16",
-    "EndingTimeofEvent": "19:18",
-    "StartingTimeofEvent": "19:19",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "its working!!",
-    "AdressofEvent": "its working!!",
-    "PurposeofEvent": "its working!!",
-    "FacilityofEvent": "coindregrounds",
-    "DateofEvent": "2024-01-16",
-    "EndingTimeofEvent": "19:18",
-    "StartingTimeofEvent": "19:19",
-    "eventStatus": "Pending"
-  },
-  {
-    "NameofEvent": "its working!!",
-    "AdressofEvent": "its working!!",
-    "PurposeofEvent": "its working!!",
-    "FacilityofEvent": "coindregrounds",
-    "DateofEvent": "2024-01-16",
-    "EndingTimeofEvent": "19:18",
-    "StartingTimeofEvent": "19:19",
-    "eventStatus": "Pending"
-  },
-  {
+    "id": "ba6ejwd1itg",
     "NameofEvent": "new year party",
     "AdressofEvent": "new year party",
     "PurposeofEvent": "new year party",
@@ -197,9 +140,11 @@
     "DateofEvent": "2024-01-01",
     "EndingTimeofEvent": "23:55",
     "StartingTimeofEvent": "22:22",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CABE"
   },
   {
+    "id": "oyh5pd1v0f",
     "NameofEvent": "Intramurals Event",
     "AdressofEvent": "CJC Meseriour Grounds",
     "PurposeofEvent": "For Physical Education and Commaradery",
@@ -207,9 +152,11 @@
     "DateofEvent": "2024-04-09",
     "EndingTimeofEvent": "07:30",
     "StartingTimeofEvent": "06:00",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CEDAS"
   },
   {
+    "id": "34pdbyd0cl",
     "NameofEvent": "new event",
     "AdressofEvent": "new event",
     "PurposeofEvent": "new event",
@@ -217,9 +164,11 @@
     "DateofEvent": "2024-01-25",
     "EndingTimeofEvent": "22:39",
     "StartingTimeofEvent": "19:42",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CCIS"
   },
   {
+    "id": "xgrm4sntldm",
     "NameofEvent": "are we working?",
     "AdressofEvent": "are we working?",
     "PurposeofEvent": "are we working?",
@@ -227,16 +176,55 @@
     "DateofEvent": "2024-01-19",
     "EndingTimeofEvent": "22:53",
     "StartingTimeofEvent": "19:55",
-    "eventStatus": "Pending"
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CEDAS"
   },
   {
-    "NameofEvent": "text if its still getting updated",
-    "AdressofEvent": "sample address",
-    "PurposeofEvent": "sample purpose event",
+    "id": "o2dj3bxl4k",
+    "NameofEvent": "Calendar is Working",
+    "AdressofEvent": "yes it is",
+    "PurposeofEvent": "working calendar",
     "FacilityofEvent": "coindregrounds",
-    "DateofEvent": "2024-01-25",
-    "EndingTimeofEvent": "01:09",
-    "StartingTimeofEvent": "21:13",
-    "eventStatus": "Pending"
+    "DateofEvent": "2024-02-01",
+    "EndingTimeofEvent": "23:33",
+    "StartingTimeofEvent": "02:29",
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CHS"
+  },
+  {
+    "id": "8jvtpebht4",
+    "NameofEvent": "tesitng College Affiliation",
+    "AdressofEvent": "tesitng College Affiliation",
+    "PurposeofEvent": "tesitng College Affiliation",
+    "FacilityofEvent": "hehall",
+    "DateofEvent": "2024-01-26",
+    "EndingTimeofEvent": "02:46",
+    "StartingTimeofEvent": "05:46",
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CCIS"
+  },
+  {
+    "id": "x2jv2zx3i7",
+    "NameofEvent": "booking list design test",
+    "AdressofEvent": "testing1",
+    "PurposeofEvent": "testing2",
+    "FacilityofEvent": "coindregrounds",
+    "DateofEvent": "2024-01-16",
+    "EndingTimeofEvent": "08:48",
+    "StartingTimeofEvent": "03:45",
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CSP"
+  },
+  {
+    "id": "zv34kjzuogc",
+    "NameofEvent": "testing id",
+    "AdressofEvent": "maybe and id",
+    "PurposeofEvent": "id",
+    "FacilityofEvent": "ledouxhall",
+    "DateofEvent": "2024-01-31",
+    "EndingTimeofEvent": "04:07",
+    "StartingTimeofEvent": "07:04",
+    "eventStatus": "Pending",
+    "CollegeAffiliation": "CSP"
   }
 ]
