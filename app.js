@@ -1,4 +1,4 @@
-import express from "express";
+import express, { json } from "express";
 import cors from "cors";
 import jwt from "jsonwebtoken";
 import fs from "fs";
@@ -73,7 +73,10 @@ app.post("/login", (req, res, next) => {
 app.post("/writeToFile", (req, res) => {
   const data = req.body;
   console.log(data); // Log the received data
-  fs.appendFileSync("data.js", JSON.stringify(data));
+  //FOR DATA.json
+  const fileData = JSON.parse(fs.readFileSync("Data.json"));
+  fileData.push(data);
+  fs.writeFileSync("Data.json", JSON.stringify(fileData, null, 2));
   res.sendStatus(200);
 });
 
