@@ -45,14 +45,14 @@ app.get("/", (req, res) => {
 app.get("/event", middleware, async (req, res) => {
   try {
     res.status(200).json({
-      data: eventData,
+      data: JSON.parse(fs.readFileSync("Data.json")),
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 });
 
-app.post("/login", (req, res, next) => {
+app.post("/login", (req, res, next) => {D
   const { emailUser, passwordUser } = req.body;
 
   if (emailUser !== "Alcatraz") {
@@ -73,7 +73,10 @@ app.post("/login", (req, res, next) => {
 app.post("/writeToFile", (req, res) => {
   const data = req.body;
   console.log(data); // Log the received data
-  fs.appendFileSync("data.js", JSON.stringify(data));
+  //FOR DATA.json
+  const fileData = JSON.parse(fs.readFileSync("Data.json"));
+  fileData.push(data);
+  fs.writeFileSync("Data.json", JSON.stringify(fileData, null, 2));
   res.sendStatus(200);
 });
 
