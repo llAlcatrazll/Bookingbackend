@@ -1,4 +1,4 @@
-import express from "express";
+import express, { json } from "express";
 import cors from "cors";
 import jwt from "jsonwebtoken";
 import fs from "fs";
@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 app.get("/event", middleware, async (req, res) => {
   try {
     res.status(200).json({
-      data: eventData,
+      data: JSON.parse(fs.readFileSync("Data.json")),
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -53,6 +53,7 @@ app.get("/event", middleware, async (req, res) => {
 });
 
 app.post("/login", (req, res, next) => {
+  D;
   const { emailUser, passwordUser } = req.body;
 
   if (emailUser !== "Alcatraz") {
@@ -73,7 +74,10 @@ app.post("/login", (req, res, next) => {
 app.post("/writeToFile", (req, res) => {
   const data = req.body;
   console.log(data); // Log the received data
-  fs.appendFileSync("data.js", JSON.stringify(data));
+  //FOR DATA.json
+  const fileData = JSON.parse(fs.readFileSync("Data.json"));
+  fileData.push(data);
+  fs.writeFileSync("Data.json", JSON.stringify(fileData, null, 2));
   res.sendStatus(200);
 });
 
@@ -108,7 +112,7 @@ app.listen(SERVER_PORT, () => {
 app.post("/event", middleware, (req, res) => {
   const newEvent = req.body;
 
-  fs.readFile("./data.js", "utf8", (err, data) => {
+  fs.readFile("./Data.json", "utf8", (err, data) => {
     if (err) {
       console.error(err);
       return;
@@ -118,7 +122,7 @@ app.post("/event", middleware, (req, res) => {
     eventData.push(newEvent);
     const updatedData = JSON.stringify(eventData, null, 2);
 
-    fs.writeFile("./data.js", updatedData, (err) => {
+    fs.writeFile("./Data.json", updatedData, (err) => {
       if (err) {
         console.error(err);
         return;

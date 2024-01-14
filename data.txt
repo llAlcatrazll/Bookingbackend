@@ -1,15 +1,4 @@
-export default [
-  {
-    AdressofEvent: "Cor Jesu",
-    DateofEvent: "2023-01-12",
-    EndingTimeofEvent: "14:21",
-    FacilityofEvent: "somewhere",
-    NameofEvent: "wewe ",
-    PurposeofEvent: "to enjor the year",
-    StartingTimeofEvent: "02:34",
-    eventStatus: "Pending",
-  },
-  {
+{
     AdressofEvent: "12345 Community Center",
     DateofEvent: "2023-12-01",
     EndingTimeofEvent: "15:45",
@@ -110,4 +99,3 @@ export default [
     StartingTimeofEvent: "15:00",
     eventStatus: "Pending",
   },
-];
