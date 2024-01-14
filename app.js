@@ -70,6 +70,12 @@ app.post("/login", (req, res, next) => {
 
   res.status(200).json({ message: "Successfully login", token: acces_token });
 });
+app.post("/writeToFile", (req, res) => {
+  const data = req.body;
+  console.log(data); // Log the received data
+  fs.appendFileSync("data.js", JSON.stringify(data));
+  res.sendStatus(200);
+});
 
 app.get("/events/:id", middleware, (req, res) => {
   try {
