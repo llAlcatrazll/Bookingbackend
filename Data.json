@@ -198,5 +198,45 @@
     "EndingTimeofEvent": "23:55",
     "StartingTimeofEvent": "22:22",
     "eventStatus": "Pending"
+  },
+  {
+    "NameofEvent": "Intramurals Event",
+    "AdressofEvent": "CJC Meseriour Grounds",
+    "PurposeofEvent": "For Physical Education and Commaradery",
+    "FacilityofEvent": "gymnasium",
+    "DateofEvent": "2024-04-09",
+    "EndingTimeofEvent": "07:30",
+    "StartingTimeofEvent": "06:00",
+    "eventStatus": "Pending"
+  },
+  {
+    "NameofEvent": "new event",
+    "AdressofEvent": "new event",
+    "PurposeofEvent": "new event",
+    "FacilityofEvent": "hehall",
+    "DateofEvent": "2024-01-25",
+    "EndingTimeofEvent": "22:39",
+    "StartingTimeofEvent": "19:42",
+    "eventStatus": "Pending"
+  },
+  {
+    "NameofEvent": "are we working?",
+    "AdressofEvent": "are we working?",
+    "PurposeofEvent": "are we working?",
+    "FacilityofEvent": "coindregrounds",
+    "DateofEvent": "2024-01-19",
+    "EndingTimeofEvent": "22:53",
+    "StartingTimeofEvent": "19:55",
+    "eventStatus": "Pending"
+  },
+  {
+    "NameofEvent": "text if its still getting updated",
+    "AdressofEvent": "sample address",
+    "PurposeofEvent": "sample purpose event",
+    "FacilityofEvent": "coindregrounds",
+    "DateofEvent": "2024-01-25",
+    "EndingTimeofEvent": "01:09",
+    "StartingTimeofEvent": "21:13",
+    "eventStatus": "Pending"
   }
 ]

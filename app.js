@@ -21,15 +21,22 @@ const SECRET =
 
 function middleware(req, res, next) {
   try {
-    const authHeader = req.headers["authorization"];
+    const authHeader = req.headers["authorization"].trim();
+    const token = authHeader.split(" ")[1];
     if (!authHeader) {
       const error = new Error("Access denied");
       error.status = 401;
       return next(error);
     } else {
       const token = authHeader.split(" ")[1];
-      jwt.verify(token, SECRET);
-      next();
+      jwt.verify(token, SECRET, (err, user) => {
+        if (err) {
+          const error = new Error("Access denied");
+          error.status = 403;
+          return next(error);
+        }
+        next();
+      });
     }
   } catch (err) {
     const error = new Error(err.message);
@@ -53,7 +60,6 @@ app.get("/event", middleware, async (req, res) => {
 });
 
 app.post("/login", (req, res, next) => {
-  D;
   const { emailUser, passwordUser } = req.body;
 
   if (emailUser !== "Alcatraz") {
