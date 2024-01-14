@@ -45,14 +45,14 @@ app.get("/", (req, res) => {
 app.get("/event", middleware, async (req, res) => {
   try {
     res.status(200).json({
-      data: eventData,
+      data: JSON.parse(fs.readFileSync("Data.json")),
     });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 });
 
-app.post("/login", (req, res, next) => {
+app.post("/login", (req, res, next) => {D
   const { emailUser, passwordUser } = req.body;
 
   if (emailUser !== "Alcatraz") {
